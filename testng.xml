@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Suite" parallel="false">
+<listners>
+<listner class-name= "Academy.ETEProject.Listners"/>
+</listners>
+  <test name="ValidatingNav Bar">
+    <classes>
+      <class name="Academy.ETEProject.validateNavBarTest"/>
+       </classes>
+  </test>
+   <test name="Login Test">
+    <classes>
+      <class name="Academy.ETEProject.HomePageTest"/>
+       </classes>
+  </test>
+   <test name="Validating Title">
+    <classes>
+      <class name="Academy.ETEProject.validateTitleTest"/>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+  
+ 

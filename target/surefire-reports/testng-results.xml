@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118293" started-at="2021-01-21T18:25:02 IST" finished-at="2021-01-21T18:27:01 IST">
+    <groups>
+    </groups>
+    <test name="ValidatingNav Bar" duration-ms="55566" started-at="2021-01-21T18:25:02 IST" finished-at="2021-01-21T18:25:58 IST">
+      <class name="Academy.ETEProject.validateNavBarTest">
+        <test-method status="PASS" signature="BrowserLaunching()[pri:0, instance:Academy.ETEProject.validateNavBarTest@20ccf40b]" name="BrowserLaunching" is-config="true" duration-ms="48393" started-at="2021-01-21T18:25:02 IST" finished-at="2021-01-21T18:25:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunching -->
+        <test-method status="PASS" signature="navBardisplay()[pri:0, instance:Academy.ETEProject.validateNavBarTest@20ccf40b]" name="navBardisplay" duration-ms="4127" started-at="2021-01-21T18:25:52 IST" finished-at="2021-01-21T18:25:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navBardisplay -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:Academy.ETEProject.validateNavBarTest@20ccf40b]" name="closeWindow" is-config="true" duration-ms="1962" started-at="2021-01-21T18:25:56 IST" finished-at="2021-01-21T18:25:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Academy.ETEProject.validateNavBarTest -->
+    </test> <!-- ValidatingNav Bar -->
+    <test name="Login Test" duration-ms="44864" started-at="2021-01-21T18:26:00 IST" finished-at="2021-01-21T18:26:45 IST">
+      <class name="Academy.ETEProject.HomePageTest">
+        <test-method status="PASS" signature="BrowserLaunching()[pri:0, instance:Academy.ETEProject.HomePageTest@2ed2d9cb]" name="BrowserLaunching" is-config="true" duration-ms="9744" started-at="2021-01-21T18:26:00 IST" finished-at="2021-01-21T18:26:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunching -->
+        <test-method status="PASS" signature="HomePageLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.ETEProject.HomePageTest@2ed2d9cb]" name="HomePageLaunch" duration-ms="17481" started-at="2021-01-21T18:26:10 IST" data-provider="getData" finished-at="2021-01-21T18:26:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageLaunch -->
+        <test-method status="PASS" signature="HomePageLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.ETEProject.HomePageTest@2ed2d9cb]" name="HomePageLaunch" duration-ms="17360" started-at="2021-01-21T18:26:28 IST" data-provider="getData" finished-at="2021-01-21T18:26:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dg34567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unrestricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageLaunch -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:Academy.ETEProject.HomePageTest@2ed2d9cb]" name="closeWindow" is-config="true" duration-ms="270" started-at="2021-01-21T18:26:45 IST" finished-at="2021-01-21T18:26:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Academy.ETEProject.HomePageTest -->
+    </test> <!-- Login Test -->
+    <test name="Validating Title" duration-ms="15476" started-at="2021-01-21T18:26:45 IST" finished-at="2021-01-21T18:27:01 IST">
+      <class name="Academy.ETEProject.validateTitleTest">
+        <test-method status="PASS" signature="BrowserLaunching()[pri:0, instance:Academy.ETEProject.validateTitleTest@1de76cc7]" name="BrowserLaunching" is-config="true" duration-ms="14723" started-at="2021-01-21T18:26:45 IST" finished-at="2021-01-21T18:27:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunching -->
+        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:Academy.ETEProject.validateTitleTest@1de76cc7]" name="ValidateTitle" duration-ms="686" started-at="2021-01-21T18:27:00 IST" finished-at="2021-01-21T18:27:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:Academy.ETEProject.validateTitleTest@1de76cc7]" name="closeWindow" is-config="true" duration-ms="65" started-at="2021-01-21T18:27:01 IST" finished-at="2021-01-21T18:27:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Academy.ETEProject.validateTitleTest -->
+    </test> <!-- Validating Title -->
+  </suite> <!-- Suite -->
+</testng-results>
